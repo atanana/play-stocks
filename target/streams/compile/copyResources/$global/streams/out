@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/andrey/dev/IdeaProjects/scala/stocks/conf/logback.xml,/home/andrey/dev/IdeaProjects/scala/stocks/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/andrey/dev/IdeaProjects/scala/stocks/conf/routes,/home/andrey/dev/IdeaProjects/scala/stocks/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/andrey/dev/IdeaProjects/scala/stocks/conf/openshift.conf,/home/andrey/dev/IdeaProjects/scala/stocks/target/scala-2.11/classes/openshift.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/andrey/dev/IdeaProjects/scala/stocks/conf/application.conf,/home/andrey/dev/IdeaProjects/scala/stocks/target/scala-2.11/classes/application.conf)[0m
