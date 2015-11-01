@@ -57,7 +57,7 @@ Seq[Any](format.raw/*1.32*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Sun Nov 01 21:02:02 MSK 2015
+                  DATE: Sun Nov 01 21:19:53 MSK 2015
                   SOURCE: /home/andrey/dev/IdeaProjects/scala/stocks/app/views/main.scala.html
                   HASH: dc282e8cd845ba81640c95b00f1427dc4f5c12bf
                   MATRIX: 530->1|655->31|683->33|770->94|795->99|883->161|897->167|959->208|1046->269|1060->275|1120->314|1172->339|1187->345|1249->386|1343->453|1371->460|1403->465

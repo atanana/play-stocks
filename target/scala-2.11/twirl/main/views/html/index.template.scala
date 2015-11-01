@@ -49,7 +49,7 @@ Seq[Any](format.raw/*1.19*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sun Nov 01 21:02:02 MSK 2015
+                  DATE: Sun Nov 01 21:19:53 MSK 2015
                   SOURCE: /home/andrey/dev/IdeaProjects/scala/stocks/app/views/index.scala.html
                   HASH: aeb73be514da17904eb1f62ccf8de981a6015ef2
                   MATRIX: 527->1|639->18|667->21|698->44|737->46|769->53|783->59|820->76|852->79

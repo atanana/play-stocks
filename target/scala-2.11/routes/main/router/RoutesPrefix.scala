@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/andrey/dev/IdeaProjects/scala/stocks/conf/routes
-// @DATE:Sun Nov 01 21:02:01 MSK 2015
+// @DATE:Sun Nov 01 21:19:52 MSK 2015
 
 
 package router {
