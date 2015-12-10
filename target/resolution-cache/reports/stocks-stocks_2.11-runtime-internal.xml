@@ -7,8 +7,20 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20151210225615"/>
+		date="20151210232231"/>
 	<dependencies>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.38" status="release" pubdate="20151202110206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="59">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2412" time="0" location="/home/andrey/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.38.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.pom"/>
+				<caller organisation="stocks" name="stocks_2.11" conf="compile, runtime-internal, runtime, optional" rev="5.1.38" rev-constraint-default="5.1.38" rev-constraint-dynamic="5.1.38" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="no" details="" size="983911" time="0" location="/home/andrey/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.38.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.play" name="play-ws_2.11">
 			<revision name="2.4.4" status="release" pubdate="20151119003235" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="51">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
@@ -287,7 +299,7 @@
 		</module>
 		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
 			<revision name="4.0" status="release" pubdate="20150428233500" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
-				<metadata-artifact status="successful" details="" size="549" time="160" location="/home/andrey/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml" searched="true" original-local-location="/home/andrey/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+				<metadata-artifact status="successful" details="" size="549" time="320" location="/home/andrey/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml" searched="true" original-local-location="/home/andrey/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="2.4.4"/>
 				<artifacts>
 					<artifact name="guice-assistedinject" type="jar" ext="jar" status="no" details="" size="43425" time="0" location="/home/andrey/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar">

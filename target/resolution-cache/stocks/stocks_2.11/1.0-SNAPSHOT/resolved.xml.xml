@@ -4,7 +4,7 @@
 		module="stocks_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20151210225615"
+		publication="20151210232231"
 	>
 		<description>
 		stocks
@@ -43,5 +43,6 @@
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.4.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-ws_2.11" rev="2.4.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-specs2_2.11" rev="2.4.4" conf="test->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.38" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
