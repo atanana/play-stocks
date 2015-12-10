@@ -2,6 +2,8 @@ logs
 project/project
 project/target
 #target #commented for deploying to openshift
+target/*
+!target/universal/stage/*
 tmp
 .history
 dist
