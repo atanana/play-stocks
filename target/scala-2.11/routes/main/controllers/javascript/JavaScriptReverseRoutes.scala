@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/andrey/dev/IdeaProjects/scala/stocks/conf/routes
-// @DATE:Sun Nov 01 21:19:52 MSK 2015
+// @DATE:Thu Dec 10 22:56:22 MSK 2015
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
